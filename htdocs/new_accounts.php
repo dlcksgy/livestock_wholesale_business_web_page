@@ -162,7 +162,7 @@ if(isset($_POST['id'])){
 
       <div class="row">
         <div class="col-md-12 order-md-1">
-          <form class="needs-validation" method="POST" action="/new_accounts.php">
+          <form class="needs-validation" method="POST" action="new_accounts.php">
             <div class="mb-3">
               <label for="usernames">아이디</label>
               <div class="row">
