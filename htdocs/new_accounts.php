@@ -15,7 +15,7 @@ if(isset($_POST['id'])){
   $jumin=$_POST['jumin1'].$_POST['jumin2'];
   $address=$_POST['address'];
   $phone=$_POST['phone1'].$_POST['phone2'].$_POST['phone3'];
-  $conn = mysqli_connect("localhost", "root", "123456", "test");
+  $conn = mysqli_connect("localhost", "root", "dlcksgy78@", "test");
   //아이디 중복
   $result =
   mysqli_query($conn,
@@ -162,7 +162,7 @@ if(isset($_POST['id'])){
 
       <div class="row">
         <div class="col-md-12 order-md-1">
-          <form class="needs-validation" method="POST" action="new_accounts.php">
+          <form class="needs-validation" method="POST" action="/new_accounts.php">
             <div class="mb-3">
               <label for="usernames">아이디</label>
               <div class="row">
