@@ -1,0 +1,62 @@
+button{
+  text-align:left;
+  background-color:transparent;
+  border:none;
+  font-size:15px;
+}
+.submit input{
+  margin-left: 1em;
+  border: none;
+  background-color:transparent;
+}
+
+#empty{
+  height: 5em;
+}
+#form{
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+#order_production{
+  display: inline-table;
+   width:100%;
+   border: 1px solid lightgray;
+
+}
+#order_production tr{
+  height:3em;
+  border-bottom: 1px solid lightgray;
+}
+
+#order_info{
+  display: inline-table;
+   width:100%;
+   text-align: left;
+   border-collapse: collapse;
+}
+#order_info th,#order_info td{
+  padding: 0.5em;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+#order_info td input{
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+#order_info th{
+  border-right: 1px solid lightgray;
+}
+#order_info tr{
+  height:3.5em;
+}
+
+#form h2{
+  display: inline;
+    float: left;
+    font-size: 20pt;
+}
+.required{
+  float: right;
+}
