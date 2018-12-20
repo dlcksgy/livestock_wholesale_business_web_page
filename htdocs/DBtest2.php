@@ -5,7 +5,7 @@ echo '<h1>' . $inteager . '</h1>';
 echo("#debug1<br/>");
 //php version : 7.2
 
-ec2-54-180-125-179.ap-northeast-2.compute.amazonaws.com , 172.31.16.108
+//ec2-54-180-125-179.ap-northeast-2.compute.amazonaws.com , 172.31.16.108
 $mysqli = new mysqli("172.31.16.108", "root", "dlcksgy78@", "test");
 
 if($mysqli){
