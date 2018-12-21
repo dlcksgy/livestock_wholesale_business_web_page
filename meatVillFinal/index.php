@@ -128,10 +128,10 @@ if(isset($_GET['already'])){
           <?php  endif?>
           <?php if(!isset($_SESSION['success'])): ?>
             <li class="nav-item">
-              <a class="nav-link" href="login_popup.php">로그인</a>
+              <a class="nav-link" href="./login_popup.php">로그인</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="new_accounts.php">회원가입</a>
+              <a class="nav-link" href="./new_accounts.php">회원가입</a>
             </li>
           <?php  endif?>
 
