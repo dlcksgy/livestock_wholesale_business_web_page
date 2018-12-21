@@ -9,7 +9,7 @@ if(isset($_SESSION['success'])){
 if(isset($_POST['login'])){
   $username = $_POST['login'];
   $password_temp = $_POST['password'];
-  $password = md5($password_temp);
+  $password = $password_temp;
 
   $conn = mysqli_connect("172.31.16.108", "root", "dlcksgy78@", "test");
 
